@@ -192,9 +192,11 @@ nav {
   .nav-links {
     display: none;
     flex-direction: column;
-    /* position: absolute; */
+    position: absolute;
     top: 60px; /* Adjust based on your nav height */
     left: 0;
+    border: 2px solid wheat;
+    background-color: white;
   }
 
   .nav-links.active {
@@ -208,6 +210,10 @@ nav {
 
   #about {
     justify-items: center;
+  }
+
+  .mob-button {
+    text-align: center;
   }
 }
 
