@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="head-nav">
+      <a class="logo" href="#">AbdulAfeez</a>
+      <div class="navlinks">
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">About Me</a>
+              <a href="#skills">Skills</a>
+              <a href="#education">Education</a>
+              <a href="#interests">Interests</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <div class="hamburger" id="hamburger">
+            &#9776;
+            <!-- Hamburger icon -->
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="hero-section">
+        <div>
+          <p>
+            Hello, I am a dedicated and passionate Full-Stack Web Developer with
+            expertise in both frontend and backend development. With a strong
+            foundation in React, Next.js, JavaScript, HTML, CSS, and Tailwind
+            CSS for frontend development, I excel at building responsive,
+            dynamic, and visually engaging user interfaces. On the backend, I am
+            skilled in Node.js, Express, and working with databases like MongoDB
+            and SQL, enabling me to develop robust and scalable server-side
+            applications. I recently completed a comprehensive full-stack web
+            development program, where I gained hands-on experience building
+            modern web applications from concept to deployment. I am proficient
+            in tools such as VSCode and Git, GitHub, allowing me to collaborate
+            effectively and maintain clean, well-documented code.
+          </p>
+        </div>
+        <div>
+          <img
+            src="/assests/project-logo.jpg"
+            alt="osundun-abdulafeez"
+            height="250px"
+            width="250px"
+          />
+        </div>
+      </div>
+      <div class="mob-button">
+        <a
+          href="https://wa.me/+2348163978187"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hire-me-button"
+          >Hire Me</a
+        >
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>NextJs</li>
+        <li>NodeJs</li>
+        <li>EmailJs</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Educational Background</h2>
+      <p>National Diploma (Computer Engineering) Moshood Abiola Polytechnic</p>
+      <p>Completed a Full-Stack web Development Program</p>
+      <a
+        href="/assests/OSUNDUN ABDULAFEEZ OYEBOWALE.pdf"
+        class="hire-me-button"
+        download
+        >Download My CV</a
+      >
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <p>
+        I love exploring new web technologies, optimizing website performance,
+        and creating user-friendly application
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div>
+          <h3>Project 1</h3>
+          <img src="/assests/htmllogo.jpg" alt="htmlproject" />
+          <p>My first Html project.</p>
+          <a
+            href="https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-html-5-primacodex.git"
+            target="_blank`"
+            class="hire-me-button"
+            >View Project</a
+          >
+        </div>
+        <div>
+          <h3>Project 2</h3>
+          <img src="/assests/csslogo.jpg" alt="cssproject" />
+          <p>My first CSS project.</p>
+          <a
+            href="https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-css-primacodex.git"
+            target="_blank`"
+            class="hire-me-button"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:osundunafeez@gmail.com" method="post">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy 2025 Osundun AbdulAfeez. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
